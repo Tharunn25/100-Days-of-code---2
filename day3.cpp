@@ -1,5 +1,7 @@
-#include <iostream>
+// day 3 out of 100
+// finding the maximum and minimum of an array
 
+#include <iostream>
 using namespace std;
 
 int main()
