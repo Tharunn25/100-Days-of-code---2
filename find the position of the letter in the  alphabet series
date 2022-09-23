@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int num = 31; // declaring num as 31 if we do and operation with this number we get the position of the letter in the alphabet
+void tono(string a,int n){
+    
+    for(int i=0;i<n;i++){      // iterating the string      
+        cout<<(a[i] & num)<<" ";   // doing the and operation with the every element with the fixed num 31
+    }
+    
+}
+
+int main()
+{
+    string a ="abcdefghi";
+    int n = a.size();
+    tono(a,n);
+
+    return 0;
+}
