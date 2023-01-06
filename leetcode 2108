@@ -1,0 +1,21 @@
+class Solution {
+public:
+    
+    bool palindrom(string s){
+        string p =s;
+        reverse(s.begin(),s.end());
+            if(s==p){
+                return true;
+            } 
+            return false;      
+    }
+
+string firstPalindrome(vector<string>& words) {
+        for(int i=0;i<words.size();i++){
+            if(palindrom(words[i])){
+                return words[i];
+            }
+        }
+        return "";
+    }
+};
