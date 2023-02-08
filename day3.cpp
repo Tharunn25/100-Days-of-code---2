@@ -38,6 +38,7 @@ int main()
             }
         }
     }
+    
     cout<<"The maximum of the array is :"<<max<<endl;
     cout<<"The minimum of the array is :"<<min<<endl;
     return 0;
