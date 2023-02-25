@@ -23,6 +23,7 @@
                 ls+=arr[i];
             }
         }
+        
         return pos;
     }
 
