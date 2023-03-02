@@ -17,6 +17,7 @@ int floor(int arr[],int n,int x)
         }
     }
     if(ans!=-1) return arr[ans];
+    
     else return -1;
 };
 
