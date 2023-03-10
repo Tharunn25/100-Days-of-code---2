@@ -32,6 +32,8 @@ int main()
         for(int i=2;i<n;i++){   //since we are done with the first two elements now we are going to iterate from the second element to lst element
             if(arr[i]>max){     // if the iterated array is max then we are updating the max element
                max=arr[i];
+                
+                
             }
             if(arr[i]<min){    // if the iterated array is min then we are updating the min element
                 min=arr[i];
