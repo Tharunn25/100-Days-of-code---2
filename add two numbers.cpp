@@ -33,7 +33,7 @@ public:
         }
         while(l2)
         {
-            int val = l1->val + l2->val + carry;
+            int val =l2->val + carry;
             carry = val/10;
             l3->next = new ListNode(val%10);
             l2=l2->next;
