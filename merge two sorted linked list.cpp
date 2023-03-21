@@ -13,6 +13,7 @@ public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
         if(list1==NULL) return list2; // if l1 is null we will return l2
         if(list2==NULL) return list1; // if l2 is null we will return l1
+        if(list1->val > list2->val) std::swap(list1,list2);
         ListNode* res = list1;  // create pointer result to point to l1, atlast we return that only
         while(list1 && list2) // while loop till l1 or l2 is not null
         {
