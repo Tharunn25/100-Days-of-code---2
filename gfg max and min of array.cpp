@@ -10,6 +10,7 @@ pair<long long, long long> getMinMax(long long a[], int n) {
             min = a[i];
         }
     }
+    
     pair<long long,long long> ans;
     ans.first=min;
     ans.second=max;
