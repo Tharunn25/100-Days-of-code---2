@@ -23,6 +23,7 @@ public:
             res.push_back(abs(lsum[i]-rsum[i]));
         }
         
+        
         return res;
     }
 };
