@@ -60,4 +60,7 @@ int main()
     print(head);           // so after inserting we are printing the linked list now it will be printed with 100 and 200
     
     return 0;
+// nothing 
+
+
 }
