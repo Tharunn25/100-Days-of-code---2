@@ -25,5 +25,8 @@ public:
                 sum+= (piles[i]/mid)+((piles[i]%mid)!=0);
             }
             return sum;
-        }    
+        }  
+//ftyy  
+
+
 };
