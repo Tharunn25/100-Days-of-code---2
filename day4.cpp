@@ -16,4 +16,6 @@ int main()
     string s = "Tharunn"; // creating  a string
     reversestr(s);   // calling the function
     return 0;
+    
+    
 }
