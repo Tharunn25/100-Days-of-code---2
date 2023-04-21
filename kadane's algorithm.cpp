@@ -38,6 +38,8 @@ int main()
     maxarr(arr,n); // calling the function with arr and n as arguments
 
     return 0;
+    
+    
 }
 
 /* dry run 
