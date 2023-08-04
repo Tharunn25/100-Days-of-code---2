@@ -27,7 +27,7 @@ class Solution{
              vec.push_back(a[i]);
 
          }
-
+   
         }
         
         
